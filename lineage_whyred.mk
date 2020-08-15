@@ -26,9 +26,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
 # Inherit some common Superior stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := superior_whyred
+PRODUCT_NAME := lineage_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
